@@ -1,7 +1,7 @@
 const person = {
-  name : "Amka",
+  name: "Amka",
   // walk is method in person object
-  walk : function() {},
+  walk: function () {},
   talk() {},
 };
 
@@ -15,5 +15,4 @@ const targetMember = "name";
 
 // 2. In pratical we use this bracket notation, when we don't know ahead of time
 // what property or method we're going to access
-person[targetMember.value] =
-    "John Doe"; // string inside square bracket indicate name of target member
+person[targetMember.value] = "John Doe"; // string inside square bracket indicate name of target member
