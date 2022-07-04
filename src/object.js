@@ -6,7 +6,13 @@ const person = {
 };
 
 // There are two way to access object
-person.talk(); // If we know what propert or method that we are going to access, we use dot notation
+
+// 1. If we know what property or method that we are going to access, we use dot
+// notation
+person.talk();
 person.name = "";
 const targetMember = "name";
-person[targetMember.value] = "John Doe"; // square bracket inside string indicates member of target // In pratical we use this bracket notation, when we don't know ahead of time what property or method we're going to access
+
+// 2. In pratical we use this bracket notation, when we don't know ahead of time
+// what property or method we're going to access
+person[targetMember.value] = "John Doe"; // string inside square bracket indicate name of target member

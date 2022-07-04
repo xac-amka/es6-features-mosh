@@ -23,7 +23,13 @@ console.log(activeJobs);
 //     // In an old we used
 //     var self = this;
 //     setTimeout(function () {
-//       // This setTimeout callback function is not part of any objects. It is not like talk method in person object. It is a standalone function.
+//       // This setTimeout callback function is not part of any objects. It is
+//       not like talk method in person object. It is a standalone function.
+//
+//       // In case of callback function strict mode does not overwrite this
+//       behaviour. So, logs windows object. To solve this use self.
+//       console.log("this", this);
+//
 //       console.log("self", self);
 //     }, 1000);
 //   },
@@ -31,7 +37,7 @@ console.log(activeJobs);
 
 const person = {
   talk() {
-    //   Fat arrow function inherit that "this" keyword. So arraw function don't bind this keyword
+    //  Arrow function don't rebind this keyword. In automatically inherit this.
     setTimeout(() => {
       console.log("this", this);
     }, 1000);
