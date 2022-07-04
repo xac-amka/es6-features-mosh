@@ -14,7 +14,7 @@ person.walk();
 // if strict mode is enabled it is gonna return undefined instead of window object
 
 // BINDING THIS
-// With "bind" method we can set the value of this permanently.
+// With "bind" method we can set the value of "this"  permanently.
 const walk = person.walk.bind(person);
 walk();
 
