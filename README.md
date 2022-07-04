@@ -20,3 +20,5 @@
 
 - **Videos-**
   - [ES6 Tutorial: Learn Modern JavaScript](https://www.youtube.com/watch?v=NCwa_xi0Uuc) _By Mosh Hamedani_
+  
+  - For More understanding - [ES6 for Beginners - Modern JavaScript](https://www.youtube.com/watch?v=1ONk1fwKp30&list=PL7ersPsTyYt2J6lT_66xNBuUI_tqt5niK&index=1) _MySirG.com_
