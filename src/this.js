@@ -1,7 +1,9 @@
 // In JS, this keyword always returns a reference to the current object.
 const person = {
-  name : "Amka",
-  walk() { console.log(this); },
+  name: "Amka",
+  walk() {
+    console.log(this);
+  },
 };
 
 // if we call a function as a method, in an object "this" always return a
